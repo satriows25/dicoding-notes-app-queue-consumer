@@ -1,7 +1,7 @@
 {
   "name": "dicoding-notes-app-queue-consumer",
   "version": "1.0.0",
-  "description": "Proyek latihan message broker kelas Belajar Fundamental Aplikasi Back-End di Dicoding Indonesia.",
+  "description": "The Notes App Queue Consumer is a practice project for the Belajar Fundamental Aplikasi Back-End class in Dicoding Indonesia. It is a message broker project that consumes messages from the RabbitMQ queue.",
   "main": "index.js",
   "scripts": {
     "start-dev": "node src/consumer.js"

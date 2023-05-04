@@ -1,10 +1,14 @@
 # Notes App Queue Consumer
 
-Proyek latihan message broker kelas [Belajar Fundamental Aplikasi Back-End](https://www.dicoding.com/academies/271) di [Dicoding Indonesia](https://www.dicoding.com).
+The Notes App Queue Consumer is a practice project for the [Belajar Fundamental Aplikasi Back-End](https://www.dicoding.com/academies/271) class in [Dicoding Indonesia](https://www.dicoding.com). It is a message broker project that consumes messages from the RabbitMQ queue.
 
-## Mengonfigurasi Environment
+This project is designed to complement the [Notes App Back-End](https://github.com/satriows25/dicoding-notes-app-backend) project, which uses RabbitMQ as a message broker for exporting notes. The Notes App Queue Consumer project consumes messages from the RabbitMQ queue and performs the necessary actions based on the message content.
 
-File `.env` (development):
+Through this project, students in the [Belajar Fundamental Aplikasi Back-End](https://www.dicoding.com/academies/271) class can practice their skills in message broker development, particularly in consuming messages from queues and performing the necessary actions based on the message content.
+
+## Configuring the Environment
+
+`.env` file (development):
 
 ```
 # node-postgres configuration
@@ -24,7 +28,7 @@ SMTP_PASSWORD=
 RABBITMQ_SERVER=amqp://localhost
 ```
 
-## Menjalankan di local
+## Running Locally
 
 ```bash
 $ git clone https://github.com/satriows25/dicoding-notes-app-queue-consumer.git
