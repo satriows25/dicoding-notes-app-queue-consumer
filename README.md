@@ -1,6 +1,6 @@
 # Notes App Queue Consumer
 
-The Notes App Queue Consumer is a project for the [Belajar Fundamental Aplikasi Back-End](https://www.dicoding.com/academies/271) class in [Dicoding Indonesia](https://www.dicoding.com). It is a message broker project that consumes messages from the RabbitMQ queue.
+The Notes App Queue Consumer is a practice project for the [Belajar Fundamental Aplikasi Back-End](https://www.dicoding.com/academies/271) class in [Dicoding Indonesia](https://www.dicoding.com). It is a message broker project that consumes messages from the RabbitMQ queue.
 
 This project is designed to complement the [Notes App Back-End](https://github.com/satriows25/dicoding-notes-app-backend) project, which uses RabbitMQ as a message broker for exporting notes. The Notes App Queue Consumer project consumes messages from the RabbitMQ queue and performs the necessary actions based on the message content.
 
